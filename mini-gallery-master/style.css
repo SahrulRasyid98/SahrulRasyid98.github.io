@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+body {
+	background-image: url('img/bg.png');
+	text-align: center;
+}
+.jumbo{
+	width: 600px;
+	margin: 10px auto;
+	
+}
+
+.container {
+	width: 600px;
+	margin: 10px auto;
+	border: 5px solid #bbb;
+}
+
+.bungkus {
+	height: 195px;
+	width: 195px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.thumb {
+	width: 195px;
+	float: left;
+	border: 2px solid #bbb;
+	box-sizing: border-box;
+	transition: 1s;
+}
+
+.thumb:hover {
+	transform: scale(1.5, 1.5);
+	opacity: .5;
+	cursor: pointer;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+.fade {
+	opacity: 0;
+	animation: fadeIn .5s forwards;
+}
+
+.active {
+	transform: scale(1.5, 1.5);
+	opacity: .5;
+}
+
+/* /* Small devices */ 
+@media (min-width: 768px) {   
+	.jumbotron .container {
+	height: 331px;
+  }
+  .jumbotron .text-white {
+	margin-top: 150px;
+  }
+  
+  .jumbotron .lead,
+  .jumbotron p {
+  font-size: 18px;
+  }
+  
+  /*Skills*/
+  .margin-15 {
+	margin-top: 0;
+  } 
+  
+  }
+  
+  /* Desktop Version */
+  @media (min-width: 992px) {
+	/*Jumbotron */
+	.jumbotron .container {
+	  height: 331px;
+	}
+	.jumbotron .text-white {
+	  margin-top: 150px;
+	}
+  
+	.jumbotron .lead,
+  .jumbotron p {
+	font-size: 18px;
+  }
+  
+	/*Skills*/
+	.margin-15 {
+	  margin-top: 0;
+	}
+	
+  }
+  
+  
+  
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width:1200px) { 
+	.jumbotron .container {
+	height: 331px;
+  }
+  .jumbotron .text-white {
+	margin-top: 150px;
+  }
+  
+  .jumbotron .lead,
+  .jumbotron p {
+  font-size: 18px;
+  }
+  
+  /*Skills*/
+  .margin-15 {
+	margin-top: 0;
+  }  
+  }
+  
+  /* Medium devices  */
+  @media (min-width:1200px) { 
+	.jumbotron .container {
+	height: 331px;
+  }
+  .jumbotron .text-white {
+	margin-top: 150px;
+  }
+  
+  .jumbotron .lead,
+  .jumbotron p {
+  font-size: 18px;
+  }
+  
+  /*Skills*/
+  .margin-15 {
+	margin-top: 0;
+  }  
+  }
+  
+  /* small devices  */
+  @media (min-width:1200px) { 
+	.jumbotron .container {
+	height: 331px;
+  }
+  .jumbotron .text-white {
+	margin-top: 150px;
+  }
+  
+  .jumbotron .lead,
+  .jumbotron p {
+  font-size: 18px;
+  }
+  
+  /*Skills*/
+  .margin-15 {
+	margin-top: 0;
+  }  
+  }

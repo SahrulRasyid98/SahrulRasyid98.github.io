@@ -1,0 +1,248 @@
+/* Navbar */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Jumbotron */
+.display-6{
+  font-size: 40px;
+}
+.jumbotron img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #fff;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.75);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.jumbotron .container {
+  height: 400px;
+}
+
+.jumbotron .text-white {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+}
+
+.jumbotron .lead,
+.jumbotron p {
+  font-size: 25px;
+}
+
+.background-img {
+  background-image: url("../img/jumbotron-bg.jpg");
+  background-size: cover;
+}
+
+.jumbotron .weight {
+  font-weight: 200;
+}
+
+/* Skills */
+.skills .container {
+  margin-top: 20px;
+}
+
+.skills .margin-15 {
+  margin-top: 10px;
+}
+
+.skills .uppercase {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+/* Portofolio */
+.portfolio .margin-top {
+  margin-top: 100px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.portfolio h2 {
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+/* Contact Me */
+.contact h2 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+/* Footer */
+footer img {
+  width: 15px;
+  height: 15px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+
+@media all and (max-width: 1200px) {  
+  .display-6{
+    font-size: 50px;
+  }
+  .jumbotron img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+  
+  .jumbotron .container {
+    height: 450px;
+  }
+  
+  .jumbotron .text-white {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+  }
+  
+  .jumbotron .lead,
+  .jumbotron p {
+    font-size: 30px;
+  }
+  
+  .background-img {
+    background-image: url("../img/jumbotron-bg.jpg");
+    background-size: cover;
+  }
+  
+  .jumbotron .weight {
+    font-weight: 200;
+  }
+  
+  /* Skills */
+  .skills .container {
+    margin-top: 20px;
+  }
+  
+  .skills .margin-15 {
+    margin-top: 10px;
+  }
+  
+  .skills .uppercase {
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  
+  /* Portofolio */
+  .portfolio .margin-top {
+    margin-top: 100px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+  }
+  
+  .portfolio h2 {
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  
+  /* Contact Me */
+  .contact h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  
+  /* Footer */
+  footer img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  footer p {
+    font-size: 15px;
+  }
+}
+
+
+@media all and (max-width: 800px) {  
+  .display-6{
+    font-size: 20px;
+  }
+  .jumbotron img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+  
+  .jumbotron .container {
+    height: 450px;
+  }
+  
+  .jumbotron .text-white {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+  }
+  
+  .jumbotron .lead,
+  .jumbotron p {
+    font-size: 18px;
+  }
+  
+  .background-img {
+    background-image: url("../img/jumbotron-bg.jpg");
+    background-size: cover;
+  }
+  
+  .jumbotron .weight {
+    font-weight: 200;
+  }
+  
+  /* Skills */
+  .skills .container {
+    margin-top: 20px;
+  }
+  
+  .skills .margin-15 {
+    margin-top: 10px;
+  }
+  
+  .skills .uppercase {
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  
+  /* Portofolio */
+  .portfolio .margin-top {
+    margin-top: 100px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+  }
+  
+  .portfolio h2 {
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  
+  /* Contact Me */
+  .contact h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  
+  /* Footer */
+  footer img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  footer p {
+    font-size: 15px;
+  }
+}
